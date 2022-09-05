@@ -167,6 +167,19 @@ namespace ConsoleApplication9
             return false;
 
         }
+        
+        public static void rotate(int[] ar, int n)
+        {
+            int lastElement = ar[n-1];
+            int l = n - 2;
+
+            for(int i=l;l>=0;l--)
+            {
+                ar[l + 1] = ar[l];               
+            }
+
+            ar[0] = lastElement;            
+        }
 
         public static int singleNumber(int[] digits)
         {
