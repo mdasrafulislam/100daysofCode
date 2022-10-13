@@ -358,6 +358,7 @@ namespace ConsoleApplication9
     }
 }
 
-//added to azure function app
+//added to azure function app 
+//trigger app
 
 
